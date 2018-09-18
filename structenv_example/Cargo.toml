@@ -1,0 +1,8 @@
+[package]
+name = "structenv_example"
+version = "0.0.1"
+authors = ["Sunrin SHIMURA (keen) <3han5chou7@gmail.com>"]
+
+[dependencies]
+structenv_derive = {path = "../structenv_derive"}
+structenv = {path = "../structenv"}

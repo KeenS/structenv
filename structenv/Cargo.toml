@@ -1,0 +1,13 @@
+[package]
+name = "structenv"
+version = "0.0.1"
+authors = ["Sunrin SHIMURA (keen) <3han5chou7@gmail.com>"]
+description = "initialize structs from environment variable"
+documentation = "https://docs.rs/structenv"
+repository = "https://github.com/KeenS/structenv"
+keywords = ["cli", "derive"]
+categories = ["command-line-interface"]
+license = "Apache-2.0/MIT"
+readme = "../README.md"
+
+[dependencies]

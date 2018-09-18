@@ -1,0 +1,19 @@
+[package]
+name = "structenv_derive"
+version = "0.0.1"
+authors = ["Sunrin SHIMURA (keen) <3han5chou7@gmail.com>"]
+description = "initialize structs from environment variable"
+documentation = "https://docs.rs/structenv_derive"
+repository = "https://github.com/KeenS/structenv"
+keywords = ["cli", "derive"]
+categories = ["command-line-interface"]
+license = "Apache-2.0/MIT"
+readme = "../README.md"
+
+[dependencies]
+syn = { version = "0.15.0", features = ["full", "fold"] }
+quote = "0.6.0"
+proc-macro2 = "0.4.19"
+
+[lib]
+proc-macro = true
